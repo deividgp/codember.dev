@@ -14,12 +14,12 @@ while (i < data.length) {
 
   code = data[i];
 
-  if (data[i] == "9") {
-    code = code + data[i + 1];
-    i = i + 2;
-  } else if (data[i] == "1") {
+  if (data[i] == "1") {
     code = code + data[i + 1] + data[i + 2];
     i = i + 3;
+  } else {
+    code = code + data[i + 1];
+    i = i + 2;
   }
   sentence = sentence + String.fromCharCode(code);
 }
