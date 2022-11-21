@@ -1,0 +1,22 @@
+{
+  "name": "codember",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "https://codember.dev/ solved challenges.",
+  "main": "index.js",
+  "scripts": {
+    "challenge01": "node challenge01/index.js",
+    "challenge02": "node challenge02/index.js",
+    "challenge03": "node challenge03/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deividgp/codember.dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deividgp/codember.dev/issues"
+  },
+  "homepage": "https://github.com/deividgp/codember.dev#readme"
+}

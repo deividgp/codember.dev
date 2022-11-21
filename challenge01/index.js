@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const data = fs.readFileSync("users.txt", "utf8");
+const data = fs.readFileSync("./challenge01/users.txt", "utf8");
 const splitData = data.split("\r\n");
 let fields = 0;
 let correctUsers = 0;

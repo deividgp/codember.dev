@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const data = fs.readFileSync("encrypted.txt", "utf8");
+const data = fs.readFileSync("./challenge02/encrypted.txt", "utf8");
 let code = "";
 let sentence = "";
 let i = 0;
