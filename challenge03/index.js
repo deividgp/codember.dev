@@ -12,7 +12,6 @@ const colors = [
 //const colors = ['blue', 'red', 'blue', 'red', 'gray']; // 4, red
 //const colors = ['red', 'red', 'blue', 'red', 'red', 'red', 'green']; // 3, red
 //const colors = ['red', 'blue', 'red', 'green', 'red', 'green', 'red', 'green']; // 6, green
-//const colors = ["blue", "red", "blue", "red", "blue", "red", "blue", "red", "blue", "red", "blue", "red", "blue", "red", "blue", "red", "blue", "red", "blue", "red", "blue", "red", "blue", "red", "blue", "red", "blue", "red", "blue", "red"];
 
 let longestSequence = 0;
 let colorLongestSequence;
