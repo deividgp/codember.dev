@@ -3,7 +3,7 @@ const passwords = [];
 for (let index = 11098; index <= 98123; index++) {
   const number = index.toString();
 
-  if ((number.match(/5/g) || []).length < 2) continue;
+  if (!number.includes("55")) continue;
 
   for (let index2 = 0; index2 + 1 < number.length; index2++) {
     if (number[index2] > number[index2 + 1]) break;
