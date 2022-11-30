@@ -1,27 +1,27 @@
-Challenge 4: Encuentra la contraseña de tu amigo
+Challenge 4: Dude, I lost my password
 
-Problema
+Problem
 
-Un amigo compró 5 BitCoins en 2008. El problema es que lo tenía en un monedero digital... ¡y no se acuerda de la contraseña!
+A friend bought 5 BitCoins in 2008. The problem is that he had it in a digital wallet... and he doesn't remember the password!
 
-Nos ha pedido ayuda. Y nos ha dado algunas pistas:
+He asked us for help. And he gave us some clues:
 
-- Es una contraseña de 5 dígitos.
-- La contraseña tenía el número 5 repetido dos veces.
-- El número a la derecha siempre es mayor o igual que el que tiene a la izquierda.
+- It's a 5-digit password.
+- The password has the number 5 repeated at least two times.
+- The number to the right is always greater than or equal to the one on the left.
 
-Nos ha puesto algunas ejemplos:
-55678 es correcto lo cumple todo
-12555 es correcto, lo cumple todo
-55555 es correcto, lo cumple todo
-12345 es incorrecto, no tiene el 5 repetido.
-57775 es incorrecto, los números no van de forma creciente
+He gave us some examples:
+55678 is correct, it fulfills everything
+12555 is correct, it fulfills everything
+55555 is correct, it fulfills everything
+12345 is incorrect, it does not have the 5 repeated.
+57775 is incorrect, the numbers do not go in increasing order
 
-Dice que el password está entre los números 11098 y 98123. ¿Le podemos decir cuantos números cumplen esas reglas dentro de ese rango?
-Cómo enviar la solución
+He says that the password is between the numbers 11098 and 98123. Can we tell him how many numbers fulfill those rules within that range?
+How to submit the solution
 
-Envía la solución con el comando submit, y el número de passwords que cumplen el criterio junto con el password que está en el índice 55 de la lista de passwords válidos, separado por un guión.
+Send the solution with the command "submit", and the number of passwords that fulfill the criteria along with the password that is in the index 55 of the list of valid passwords, separated by a hyphen. For example:
 
-Por ejemplo, para 87 resultados y el password 35522 en la posición 55 sería:
+For example, for 87 results and the password 35522 in position 55 it would be:
 
 $ submit 87-35522

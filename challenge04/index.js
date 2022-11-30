@@ -1,6 +1,6 @@
 const passwords = [];
 
-for (let index = 11098; index <= 98123; index++) {
+for (let index = 11155; index <= 55999; index++) {
   const number = index.toString();
 
   if (!number.includes("55")) continue;
