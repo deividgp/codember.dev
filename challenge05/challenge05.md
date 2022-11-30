@@ -8,13 +8,13 @@ They have put all the technologies in a circle in a random order. The technology
 
 The next turn is for the next technology alive that is to the right of the one that just died. And so on until only one remains. Look at this example of a group of 10 technologies, step by step:
 
+
          5
       6     4
-
-7 3
-8 2
-9 1
-0
+   7           3
+   8           2
+      9     1
+         0
 
 0 kills 1
 2 kills 3
@@ -24,11 +24,10 @@ The next turn is for the next technology alive that is to the right of the one t
 
          X
      6      4
-
-X X
-8 2
-X X
-0
+   X           X
+   8           2
+      X     X
+         0
 
 0 kills 2
 4 kills 6
@@ -36,21 +35,19 @@ X X
 
          X
      X      4
-
-X X
-8 X
-X X
-X
+   X           X
+   8           X
+      X     X
+         X
 
 4 kills 8
 
          X
      X      4
-
-X X
-X X
-X X
-X
+   X           X
+   X           X
+      X     X
+         X
 
 The technology in index 4 is the one that survives.
 
