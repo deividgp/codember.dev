@@ -1,0 +1,17 @@
+{
+  "name": "2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "challenge01": "node challenge01/index.js",
+    "challenge02": "node challenge02/index.js",
+    "challenge03": "node challenge03/index.js",
+    "challenge04": "node challenge04/index.js",
+    "challenge05": "node challenge05/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
